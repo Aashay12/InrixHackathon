@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Template Mo">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/index.css')}}" />
+    <title>parKING</title>
+    <!--
+
+ART FACTORY
+
+https://templatemo.com/tm-537-art-factory
+
+-->
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" type="text/css" href="static/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="static/css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="static/css/templatemo-art-factory.css">
+    <link rel="stylesheet" type="text/css" href="static/css/owl-carousel.css">
+
+</head>
+
+<body>
+
+    <!-- ***** Preloader Start ***** -->
+    <div id="preloader">
+        <div class="jumper">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    <!-- ***** Preloader End ***** -->
+
+
+    <header class="header-area header-sticky">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="main-nav">
+                        <!-- ***** Logo Start ***** -->
+                        <h1 class="logo" style="font-variant-caps: unicase;"></h1>
+                        <!-- ***** Logo End ***** -->
+                        <!-- ***** Menu Start ***** -->
+                        <ul class="nav">
+                            <li class="scroll-to-section"><a href="/home" class="active">Home</a></li>
+                            <li class="scroll-to-section"><a href="#about">Info</a></li>
+                            <li class="scroll-to-section"><a href="#findmyspot">Find my spot</a></li>
+                            <li class="scroll-to-section"><a href="#frequently-question">Government</a></li>
+                            <li class="scroll-to-section"><a href="#contact-us">Contact Us</a></li>
+                        </ul>
+                        <a class='menu-trigger'>
+                            <span>Menu</span>
+                        </a>
+                        <!-- ***** Menu End ***** -->
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- ***** Header Area End ***** -->
+
+
+    <!-- ***** Welcome Area Start ***** -->
+    <div class="welcome-area" id="welcome">
+
+        <!-- ***** Header Text Start ***** -->
+        <div class="header-text">
+            <div class="container">
+                <div class="row">
+                    <div class="left-text col-lg-6 col-md-6 col-sm-12 col-xs-12"
+                        data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
+                        <h1>Rank an Area</h1>
+                        <p style="color: white; font-size: 25px;">A smart analytical solution for analyzing on-street parking over an area.</p>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"
+                        data-scroll-reveal="enter right move 30px over 0.6s after 0.4s">
+                        <img src="static/images/slider-icon-gov.jpg" style="margin-top: 150px; height: 90%; width: auto;"
+                            class="rounded img-fluid d-block mx-auto" alt="First Vector Graphic">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ***** Header Text End ***** -->
+    </div>
+    <!-- ***** Welcome Area End ***** -->
+    <div class="col-12" , style="padding: 20px 0;">
+        <div class="row-12">
+            <div id="map" style="height: 100vh;"></div>
+    </div>
+        </div>
+        </div>
+    </section>
+    <!-- ***** Contact Us End ***** -->
+
+
+    <!-- ***** Footer Start ***** -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7 col-md-12 col-sm-12">
+                    <p class="copyright">Copyright &copy; 2021 Made with love
+
+                        - parKing</p>
+                </div>
+                <div class="col-lg-5 col-md-12 col-sm-12">
+                    <ul class="social">
+                        <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- MAP -->
+
+    <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDIUDxBCKH4yrsgWXV1O3JtBeyHMssPlK4&callback=initMap&libraries=&v=weekly"
+        async></script>
+        <script>
+            function initMap() {
+                var lat = {{lat}};
+                var lon = {{lon}};
+                var ranks = {{ranks}};
+                const myLatLng = { lat: 37.77074774,lng:-122.42485259999998};
+
+                console.log(lat);
+                const map = new google.maps.Map(document.getElementById("map"), {
+                    zoom: 15,
+                    center: myLatLng,
+                    });
+                for(var i =0; i<lat.length; i++){
+                    new google.maps.Marker({
+                      position: {lat: lat[i], lng: lon[i]},
+                      map,
+                      title: "Hello World!",
+                    });
+                }
+
+                contentString = {}
+                markers = {}
+                iw = {}
+
+        //         for(var i =0; i<74;i++){
+        //             contentString['c'+ i] = '<div id="content">' +
+        // '<div id="siteNotice">' +
+        // "</div>" +
+        // '<h4 id="firstHeading" class="firstHeading">Rank: '+ ranks[i] + '</h4>' +
+        // "</div>"; 
+        //         }
+
+                for(var i =0; i<74;i++){
+                    contentString['c'+ i] = '<div id="content">' +
+        '<div id="siteNotice">' +
+        "</div>" +
+        '<h4 id="firstHeading" class="firstHeading">Rank: '+ ranks[i] + '</h4>' +
+        "</div>"; 
+
+                    iw['iw'+i] = new google.maps.InfoWindow({
+                        content: contentString['c'+i],
+                    });
+
+                    markers['m'+i] = new google.maps.Marker({
+                      position: {lat: lat[i], lng: lon[i]},
+                      map,
+                      title: "Hello World!",
+                    });
+
+                    iwi = iw['iw'+i];
+                    mi = markers['m'+i];
+                    console.log(mi);
+                    mi.addListener("click", () => {
+                        iwi.open({
+                        anchor: mi,
+                        map,
+                        shouldFocus: false,});
+                    });
+                }
+
+                // for(var i =0; i<74;i++){
+                //     markers['m'+i] = new google.maps.Marker({
+                //       position: {lat: lat[i], lng: lon[i]},
+                //       map,
+                //       title: "Hello World!",
+                //     });
+                // }
+                
+                // for(var i =0; i<74;i++){
+                //     iwi = iw['iw'+i];
+                //     mi = markers['m'+i];
+                //     console.log(mi);
+                //     mi.addListener("click", () => {
+                //         iwi.open({
+                //         anchor: mi,
+                //         map,
+                //         shouldFocus: false,});
+                //     });
+                // }
+
+
+
+
+                // console.log(rank);
+        // var iconBase = 'https://maps.google.com/mapfiles/kml/shapes/';
+        // const myLatLng = { lat: 37.77074774,lng:-122.42485259999998};
+        
+
+        
+        // new google.maps.Marker({
+        //   position: myLatLng,
+        //   map,
+        //   title: "Hello World!",
+        // });
+        // console.log('zzzzjfhrv');
+
+        
+
+        // for (var i = 0; i<loc.length; i++){
+        //   if(i==5){
+        //     break;
+        //   }
+
+
+    //     var marker1 = new google.maps.Marker({
+    //         position: {lat: loc[0][0], lng: loc[0][1]},
+    //         map,
+    //         title: "Hello World!",
+    //         icon: iconBase + 'parking_lot_maps.png'
+    //       });
+
+    //     //   console.log(loc[i][0], loc[i][1]);
+    //     const contentString1 ='<div id="content">' +
+    //     '<div id="siteNotice">' +
+    //     "</div>" +
+    //     '<h4 id="firstHeading" class="firstHeading">Rank: '+ rank[0] + '</h4>' +
+    //     "</div>";
+
+    //     const infowindow1 = new google.maps.InfoWindow({
+    //     content: contentString1,
+    //     });
+
+          
+    //     marker1.addListener("click", () => {
+    //     infowindow1.open({
+    //     anchor: marker1,
+    //     map,
+    //     shouldFocus: false,});});
+
+
+        
+    //     var marker2 = new google.maps.Marker({
+    //         position: {lat: loc[1][0], lng: loc[1][1]},
+    //         map,
+    //         title: "Hello World!",
+    //         icon: iconBase + 'parking_lot_maps.png'
+    //       });
+
+    //     //   console.log(loc[i][0], loc[i][1]);
+    //     const contentString2 = '<div id="content">' +
+    //     '<div id="siteNotice">' +
+    //     "</div>" +
+    //     '<h4 id="firstHeading" class="firstHeading">Rank: '+ rank[1] + '</h4>' +
+    //     "</div>";
+
+    //     const infowindow2 = new google.maps.InfoWindow({
+    //     content: contentString2,
+    //     });
+
+          
+    //     marker2.addListener("click", () => {
+    //     infowindow2.open({
+    //     anchor: marker2,
+    //     map,
+    //     shouldFocus: false,});});
+        
+    //     var marker3 = new google.maps.Marker({
+    //         position: {lat: loc[2][0], lng: loc[2][1]},
+    //         map,
+    //         title: "Hello World!",
+    //         icon: iconBase + 'parking_lot_maps.png'
+    //       });
+
+    //     //   console.log(loc[i][0], loc[i][1]);
+    //     const contentString3 ='<div id="content">' +
+    //     '<div id="siteNotice">' +
+    //     "</div>" +
+    //     '<h4 id="firstHeading" class="firstHeading">Rank: '+ rank[2] + '</h4>' +
+    //     "</div>";;
+
+    //     const infowindow3 = new google.maps.InfoWindow({
+    //     content: contentString3,
+    //     });
+
+          
+    //     marker3.addListener("click", () => {
+    //     infowindow3.open({
+    //     anchor: marker3,
+    //     map,
+    //     shouldFocus: false,});});
+
+    //     var marker4 = new google.maps.Marker({
+    //         position: {lat: loc[3][0], lng: loc[3][1]},
+    //         map,
+    //         title: "Hello World!",
+    //         icon: iconBase + 'parking_lot_maps.png'
+    //       });
+
+    //     //   console.log(loc[i][0], loc[i][1]);
+    //     const contentString4 ='<div id="content">' +
+    //     '<div id="siteNotice">' +
+    //     "</div>" +
+    //     '<h4 id="firstHeading" class="firstHeading">Rank: '+ rank[3] + '</h4>' +
+    //     "</div>";
+
+    //     const infowindow4 = new google.maps.InfoWindow({
+    //     content: contentString4,
+    //     });
+
+          
+    //     marker4.addListener("click", () => {
+    //     infowindow4.open({
+    //     anchor: marker4,
+    //     map,
+    //     shouldFocus: false,});});
+
+    //     var marker5 = new google.maps.Marker({
+    //         position: {lat: loc[4][0], lng: loc[4][1]},
+    //         map,
+    //         title: "Hello World!",
+    //         icon: iconBase + 'parking_lot_maps.png'
+    //       });
+
+    //     //   console.log(loc[i][0], loc[i][1]);
+    //     const contentString5 = '<div id="content">' +
+    //     '<div id="siteNotice">' +
+    //     "</div>" +
+    //     '<h4 id="firstHeading" class="firstHeading">Rank: '+ rank[4] + '</h4>' +
+    //     "</div>";
+
+    //     const infowindow5 = new google.maps.InfoWindow({
+    //     content: contentString5,
+    //     });
+
+          
+    //     marker5.addListener("click", () => {
+    //     infowindow5.open({
+    //     anchor: marker5,
+    //     map,
+    //     shouldFocus: false,});});
+
+      }
+    </script>
+
+    <!-- jQuery -->
+    <script src="static/js/jquery-2.1.0.min.js"></script>
+
+    <!-- Bootstrap -->
+    <script src="static/js/popper.js"></script>
+    <script src="static/js/bootstrap.min.js"></script>
+
+    <!-- Plugins -->
+    <script src="static/js/owl-carousel.js"></script>
+    <script src="static/js/scrollreveal.min.js"></script>
+    <script src="static/js/waypoints.min.js"></script>
+    <script src="static/js/jquery.counterup.min.js"></script>
+    <script src="static/js/imgfix.min.js"></script>
+
+    <!-- Global Init -->
+    <script src="static/js/custom.js"></script>
+
+</body>
+
+</html>

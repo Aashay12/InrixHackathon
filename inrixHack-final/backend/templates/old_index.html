@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Add Map</title>
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="{{url_for('static', filename='css/index.css')}}"
+    />
+  </head>
+  <body>
+    <div id="map"></div>
+
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDIUDxBCKH4yrsgWXV1O3JtBeyHMssPlK4&callback=initMap&libraries=&v=weekly"
+      async
+    ></script>
+    <script>
+            function initMap() {
+        var loc = {{locations}}
+        var iconBase = 'https://maps.google.com/mapfiles/kml/shapes/';
+        const myLatLng = { lat: 37.77074774,lng:-122.42485259999998,};
+        const map = new google.maps.Map(document.getElementById("map"), {
+          zoom: 17.5,
+          center: myLatLng
+        });
+        new google.maps.Marker({
+          position: myLatLng,
+          map,
+          title: "Hello World!",
+        });
+        console.log('zzzzjfhrv');
+
+        for (var i = 0; i<loc.length; i++){
+          if(i==5){
+            break;
+          }
+          console.log(loc[i][0], loc[i][1]);
+          new google.maps.Marker({
+            position: {lat: loc[i][0], lng: loc[i][1]},
+            map,
+            title: "Hello World!",
+            icon: iconBase + 'parking_lot_maps.png'
+          });
+        }
+
+
+      }
+    </script>
+  </body>
+</html>

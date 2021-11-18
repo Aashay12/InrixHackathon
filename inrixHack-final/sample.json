@@ -1,0 +1,2094 @@
+{
+  "copyright": "Copyright INRIX Inc.",
+  "versionNumber": "5.2",
+  "createdDate": "2021-11-13T03:26:42Z",
+  "responseId": "616a6964-2b34-4c2b-9b4b-b93465a3eec8",
+  "result": [
+    {
+      "name": "Day Street",
+      "probability": 67,
+      "reservations": [],
+      "segments": [
+        {
+          "segmentID": "8de73e7b-ecc4-4595-9180-8c9476de3507",
+          "start": 182,
+          "end": 187,
+          "side": "RIGHT",
+          "spacesTotal": 0,
+          "rateCards": ["No Parking"],
+          "polyline": "mtjeFnlfjV?D",
+          "polyline6": "kus~fAzeiohFDbA",
+          "structuredRates": [
+            {
+              "rate": -1,
+              "increment": 1440,
+              "repeats": true,
+              "rate_line": "No Parking"
+            }
+          ],
+          "amenities": [],
+          "paymentIDs": [],
+          "isOpen": false,
+          "calculatedRates": []
+        },
+        {
+          "segmentID": "8de405d5-95af-4c9e-8927-3c26686a15d2",
+          "start": 120,
+          "end": 146,
+          "side": "RIGHT",
+          "spacesTotal": 0,
+          "rateCards": ["No Parking"],
+          "polyline": "utjeF`hfjVBv@",
+          "polyline6": "{ws~fAzygohF\\~O",
+          "structuredRates": [
+            {
+              "rate": -1,
+              "increment": 1440,
+              "repeats": true,
+              "rate_line": "No Parking"
+            }
+          ],
+          "amenities": [],
+          "paymentIDs": [],
+          "isOpen": false,
+          "calculatedRates": []
+        },
+        {
+          "segmentID": "03fdf13a-d1ad-4113-a519-e082bfca26c5",
+          "start": 85,
+          "end": 90,
+          "side": "RIGHT",
+          "spacesTotal": 1,
+          "rateCards": [
+            "Mon-Sun: Free",
+            "Tue Every 2nd & 4th (8am-10am; Street Cleaning): No Parking"
+          ],
+          "polyline": "ytjeFrefjV?D",
+          "polyline6": "iys~fAbagohFBbA",
+          "structuredRates": [
+            {
+              "dow_start": 1,
+              "dow_end": 7,
+              "rate": 0,
+              "increment": 1440,
+              "repeats": true,
+              "rate_line": "Mon-Sun: Free"
+            },
+            {
+              "time_in": "08:00-10:00",
+              "dow_start": 2,
+              "alternates": [2, 4],
+              "dow_end": 2,
+              "rate": -1,
+              "rate_line": "Tue Every 2nd & 4th (8am-10am; Street Cleaning): No Parking"
+            }
+          ],
+          "amenities": [
+            {
+              "id": 1,
+              "name": "Free"
+            },
+            {
+              "id": 3,
+              "name": "Overnight parking"
+            }
+          ],
+          "paymentIDs": [],
+          "isOpen": true,
+          "calculatedRates": [
+            {
+              "rate_cost": 0,
+              "quoted_duration": "1:00:00",
+              "rate_type": "B"
+            }
+          ]
+        },
+        {
+          "segmentID": "04806ca8-f6a4-40ce-825b-e8ead16e6ddf",
+          "start": 128,
+          "end": 133,
+          "side": "LEFT",
+          "spacesTotal": 1,
+          "rateCards": [
+            "Mon-Sun: Free",
+            "Fri Every 2nd & 4th (8am-10am; Street Cleaning): No Parking"
+          ],
+          "polyline": "etjeFrhfjV?D",
+          "polyline6": "ass~fAd_hohFBbA",
+          "structuredRates": [
+            {
+              "dow_start": 1,
+              "dow_end": 7,
+              "rate": 0,
+              "increment": 1440,
+              "repeats": true,
+              "rate_line": "Mon-Sun: Free"
+            },
+            {
+              "time_in": "08:00-10:00",
+              "dow_start": 5,
+              "alternates": [2, 4],
+              "dow_end": 5,
+              "rate": -1,
+              "rate_line": "Fri Every 2nd & 4th (8am-10am; Street Cleaning): No Parking"
+            }
+          ],
+          "amenities": [
+            {
+              "id": 1,
+              "name": "Free"
+            },
+            {
+              "id": 3,
+              "name": "Overnight parking"
+            }
+          ],
+          "paymentIDs": [],
+          "isOpen": true,
+          "calculatedRates": [
+            {
+              "rate_cost": 0,
+              "quoted_duration": "1:00:00",
+              "rate_type": "B"
+            }
+          ]
+        },
+        {
+          "segmentID": "04ffb146-1619-47ae-a570-67e856b59823",
+          "start": 135,
+          "end": 140,
+          "side": "LEFT",
+          "spacesTotal": 1,
+          "rateCards": [
+            "Mon-Sun: Free",
+            "Fri Every 2nd & 4th (8am-10am; Street Cleaning): No Parking"
+          ],
+          "polyline": "etjeFbifjV?D",
+          "polyline6": "yrs~fAbdhohFBbA",
+          "structuredRates": [
+            {
+              "dow_start": 1,
+              "dow_end": 7,
+              "rate": 0,
+              "increment": 1440,
+              "repeats": true,
+              "rate_line": "Mon-Sun: Free"
+            },
+            {
+              "time_in": "08:00-10:00",
+              "dow_start": 5,
+              "alternates": [2, 4],
+              "dow_end": 5,
+              "rate": -1,
+              "rate_line": "Fri Every 2nd & 4th (8am-10am; Street Cleaning): No Parking"
+            }
+          ],
+          "amenities": [
+            {
+              "id": 1,
+              "name": "Free"
+            },
+            {
+              "id": 3,
+              "name": "Overnight parking"
+            }
+          ],
+          "paymentIDs": [],
+          "isOpen": true,
+          "calculatedRates": [
+            {
+              "rate_cost": 0,
+              "quoted_duration": "1:00:00",
+              "rate_type": "B"
+            }
+          ]
+        },
+        {
+          "segmentID": "09dc9dcf-0d7c-47e4-83ca-44f70c1a8eda",
+          "start": 6,
+          "end": 12,
+          "side": "LEFT",
+          "spacesTotal": 0,
+          "rateCards": ["No Parking"],
+          "polyline": "utjeF~_fjV?F",
+          "polyline6": "axs~fAtheohFDzA",
+          "structuredRates": [
+            {
+              "rate": -1,
+              "increment": 1440,
+              "repeats": true,
+              "rate_line": "No Parking"
+            }
+          ],
+          "amenities": [],
+          "paymentIDs": [],
+          "isOpen": false,
+          "calculatedRates": []
+        },
+        {
+          "segmentID": "0e00df6a-737e-42f2-ac53-1ed94d919510",
+          "start": 75,
+          "end": 85,
+          "side": "RIGHT",
+          "spacesTotal": 0,
+          "rateCards": ["No Parking"],
+          "polyline": "{tjeFzdfjV@R",
+          "polyline6": "uys~fA`zfohFHrD",
+          "structuredRates": [
+            {
+              "rate": -1,
+              "increment": 1440,
+              "repeats": true,
+              "rate_line": "No Parking"
+            }
+          ],
+          "amenities": [],
+          "paymentIDs": [],
+          "isOpen": false,
+          "calculatedRates": []
+        },
+        {
+          "segmentID": "15a9b272-ec0f-4194-a38f-1b7986bd6ad4",
+          "start": 146,
+          "end": 152,
+          "side": "RIGHT",
+          "spacesTotal": 1,
+          "rateCards": [
+            "Mon-Sun: Free",
+            "Tue Every 2nd & 4th (8am-10am; Street Cleaning): No Parking"
+          ],
+          "polyline": "qtjeF|ifjV?F",
+          "polyline6": "yvs~fAhlhohFBxA",
+          "structuredRates": [
+            {
+              "dow_start": 1,
+              "dow_end": 7,
+              "rate": 0,
+              "increment": 1440,
+              "repeats": true,
+              "rate_line": "Mon-Sun: Free"
+            },
+            {
+              "time_in": "08:00-10:00",
+              "dow_start": 2,
+              "alternates": [2, 4],
+              "dow_end": 2,
+              "rate": -1,
+              "rate_line": "Tue Every 2nd & 4th (8am-10am; Street Cleaning): No Parking"
+            }
+          ],
+          "amenities": [
+            {
+              "id": 1,
+              "name": "Free"
+            },
+            {
+              "id": 3,
+              "name": "Overnight parking"
+            }
+          ],
+          "paymentIDs": [],
+          "isOpen": true,
+          "calculatedRates": [
+            {
+              "rate_cost": 0,
+              "quoted_duration": "1:00:00",
+              "rate_type": "B"
+            }
+          ]
+        },
+        {
+          "segmentID": "1b85ce99-f269-4513-ab22-cd58d2d74130",
+          "start": 57,
+          "end": 61,
+          "side": "RIGHT",
+          "spacesTotal": 0,
+          "rateCards": ["No Parking"],
+          "polyline": "}tjeFrcfjV?B",
+          "polyline6": "mzs~fAhmfohF@j@",
+          "structuredRates": [
+            {
+              "rate": -1,
+              "increment": 1440,
+              "repeats": true,
+              "rate_line": "No Parking"
+            }
+          ],
+          "amenities": [],
+          "paymentIDs": [],
+          "isOpen": false,
+          "calculatedRates": []
+        },
+        {
+          "segmentID": "24a3329c-624e-41ea-b624-d38509942cdb",
+          "start": 18,
+          "end": 79,
+          "side": "LEFT",
+          "spacesTotal": 0,
+          "rateCards": ["No Parking"],
+          "polyline": "stjeFx`fjVDdC",
+          "polyline6": "ows~fAfqeohFjAxh@",
+          "structuredRates": [
+            {
+              "rate": -1,
+              "increment": 1440,
+              "repeats": true,
+              "rate_line": "No Parking"
+            }
+          ],
+          "amenities": [],
+          "paymentIDs": [],
+          "isOpen": false,
+          "calculatedRates": []
+        },
+        {
+          "segmentID": "3478fe3c-4a17-4ddd-87d7-8bf54c2ec83a",
+          "start": 182,
+          "end": 188,
+          "side": "LEFT",
+          "spacesTotal": 0,
+          "rateCards": ["No Parking"],
+          "polyline": "_tjeFllfjV@F",
+          "polyline6": "{ps~fAheiohFFxA",
+          "structuredRates": [
+            {
+              "rate": -1,
+              "increment": 1440,
+              "repeats": true,
+              "rate_line": "No Parking"
+            }
+          ],
+          "amenities": [],
+          "paymentIDs": [],
+          "isOpen": false,
+          "calculatedRates": []
+        },
+        {
+          "segmentID": "40c65559-790c-4331-9cbe-1c29aff20b94",
+          "start": 70,
+          "end": 75,
+          "side": "RIGHT",
+          "spacesTotal": 1,
+          "rateCards": [
+            "Mon-Sun: Free",
+            "Tue Every 2nd & 4th (8am-10am; Street Cleaning): No Parking"
+          ],
+          "polyline": "{tjeFpdfjV?D",
+          "polyline6": "}ys~fAnvfohFBbA",
+          "structuredRates": [
+            {
+              "dow_start": 1,
+              "dow_end": 7,
+              "rate": 0,
+              "increment": 1440,
+              "repeats": true,
+              "rate_line": "Mon-Sun: Free"
+            },
+            {
+              "time_in": "08:00-10:00",
+              "dow_start": 2,
+              "alternates": [2, 4],
+              "dow_end": 2,
+              "rate": -1,
+              "rate_line": "Tue Every 2nd & 4th (8am-10am; Street Cleaning): No Parking"
+            }
+          ],
+          "amenities": [
+            {
+              "id": 1,
+              "name": "Free"
+            },
+            {
+              "id": 3,
+              "name": "Overnight parking"
+            }
+          ],
+          "paymentIDs": [],
+          "isOpen": true,
+          "calculatedRates": [
+            {
+              "rate_cost": 0,
+              "quoted_duration": "1:00:00",
+              "rate_type": "B"
+            }
+          ]
+        },
+        {
+          "segmentID": "55196285-370b-46b8-a663-e06c1253b92e",
+          "start": 155,
+          "end": 160,
+          "side": "RIGHT",
+          "spacesTotal": 1,
+          "rateCards": [
+            "Mon-Sun: Free",
+            "Tue Every 2nd & 4th (8am-10am; Street Cleaning): No Parking"
+          ],
+          "polyline": "qtjeFpjfjV?D",
+          "polyline6": "ovs~fAtrhohFBbA",
+          "structuredRates": [
+            {
+              "dow_start": 1,
+              "dow_end": 7,
+              "rate": 0,
+              "increment": 1440,
+              "repeats": true,
+              "rate_line": "Mon-Sun: Free"
+            },
+            {
+              "time_in": "08:00-10:00",
+              "dow_start": 2,
+              "alternates": [2, 4],
+              "dow_end": 2,
+              "rate": -1,
+              "rate_line": "Tue Every 2nd & 4th (8am-10am; Street Cleaning): No Parking"
+            }
+          ],
+          "amenities": [
+            {
+              "id": 1,
+              "name": "Free"
+            },
+            {
+              "id": 3,
+              "name": "Overnight parking"
+            }
+          ],
+          "paymentIDs": [],
+          "isOpen": true,
+          "calculatedRates": [
+            {
+              "rate_cost": 0,
+              "quoted_duration": "1:00:00",
+              "rate_type": "B"
+            }
+          ]
+        },
+        {
+          "segmentID": "580cc865-ad18-4573-ab33-137623a33cd5",
+          "start": 162,
+          "end": 173,
+          "side": "LEFT",
+          "spacesTotal": 0,
+          "rateCards": ["No Parking"],
+          "polyline": "atjeF~jfjV?T",
+          "polyline6": "uqs~fAfwhohFJjE",
+          "structuredRates": [
+            {
+              "rate": -1,
+              "increment": 1440,
+              "repeats": true,
+              "rate_line": "No Parking"
+            }
+          ],
+          "amenities": [],
+          "paymentIDs": [],
+          "isOpen": false,
+          "calculatedRates": []
+        },
+        {
+          "segmentID": "6cd06141-ffcc-4682-875f-c089adf42e68",
+          "start": 90,
+          "end": 115,
+          "side": "RIGHT",
+          "spacesTotal": 0,
+          "rateCards": ["No Parking"],
+          "polyline": "ytjeF|efjV@h@@J",
+          "polyline6": "cys~fArdgohFVtKDrB",
+          "structuredRates": [
+            {
+              "rate": -1,
+              "increment": 1440,
+              "repeats": true,
+              "rate_line": "No Parking"
+            }
+          ],
+          "amenities": [],
+          "paymentIDs": [],
+          "isOpen": false,
+          "calculatedRates": []
+        },
+        {
+          "segmentID": "75a984e6-c695-492b-a4b9-49c3dd192e56",
+          "start": 12,
+          "end": 18,
+          "side": "LEFT",
+          "spacesTotal": 1,
+          "rateCards": [
+            "Mon-Sun: Free",
+            "Fri Every 2nd & 4th (8am-10am; Street Cleaning): No Parking"
+          ],
+          "polyline": "utjeFj`fjV?H",
+          "polyline6": "wws~fA~leohFDxA",
+          "structuredRates": [
+            {
+              "dow_start": 1,
+              "dow_end": 7,
+              "rate": 0,
+              "increment": 1440,
+              "repeats": true,
+              "rate_line": "Mon-Sun: Free"
+            },
+            {
+              "time_in": "08:00-10:00",
+              "dow_start": 5,
+              "alternates": [2, 4],
+              "dow_end": 5,
+              "rate": -1,
+              "rate_line": "Fri Every 2nd & 4th (8am-10am; Street Cleaning): No Parking"
+            }
+          ],
+          "amenities": [
+            {
+              "id": 1,
+              "name": "Free"
+            },
+            {
+              "id": 3,
+              "name": "Overnight parking"
+            }
+          ],
+          "paymentIDs": [],
+          "isOpen": true,
+          "calculatedRates": [
+            {
+              "rate_cost": 0,
+              "quoted_duration": "1:00:00",
+              "rate_type": "B"
+            }
+          ]
+        },
+        {
+          "segmentID": "75e9c199-1a9c-4bcf-9ed0-2beda3b12478",
+          "start": 111,
+          "end": 116,
+          "side": "LEFT",
+          "spacesTotal": 1,
+          "rateCards": [
+            "Mon-Sun: Free",
+            "Fri Every 2nd & 4th (8am-10am; Street Cleaning): No Parking"
+          ],
+          "polyline": "gtjeFlgfjV?D",
+          "polyline6": "wss~fAbsgohFBbA",
+          "structuredRates": [
+            {
+              "dow_start": 1,
+              "dow_end": 7,
+              "rate": 0,
+              "increment": 1440,
+              "repeats": true,
+              "rate_line": "Mon-Sun: Free"
+            },
+            {
+              "time_in": "08:00-10:00",
+              "dow_start": 5,
+              "alternates": [2, 4],
+              "dow_end": 5,
+              "rate": -1,
+              "rate_line": "Fri Every 2nd & 4th (8am-10am; Street Cleaning): No Parking"
+            }
+          ],
+          "amenities": [
+            {
+              "id": 1,
+              "name": "Free"
+            },
+            {
+              "id": 3,
+              "name": "Overnight parking"
+            }
+          ],
+          "paymentIDs": [],
+          "isOpen": true,
+          "calculatedRates": [
+            {
+              "rate_cost": 0,
+              "quoted_duration": "1:00:00",
+              "rate_type": "B"
+            }
+          ]
+        },
+        {
+          "segmentID": "76e9c1b7-04fc-4ad6-a449-3c4ac92e0277",
+          "start": 95,
+          "end": 106,
+          "side": "LEFT",
+          "spacesTotal": 2,
+          "rateCards": [
+            "Mon-Sun: Free",
+            "Fri Every 2nd & 4th (8am-10am; Street Cleaning): No Parking"
+          ],
+          "polyline": "itjeFfffjV?T",
+          "polyline6": "kts~fAxggohFHjE",
+          "structuredRates": [
+            {
+              "dow_start": 1,
+              "dow_end": 7,
+              "rate": 0,
+              "increment": 1440,
+              "repeats": true,
+              "rate_line": "Mon-Sun: Free"
+            },
+            {
+              "time_in": "08:00-10:00",
+              "dow_start": 5,
+              "alternates": [2, 4],
+              "dow_end": 5,
+              "rate": -1,
+              "rate_line": "Fri Every 2nd & 4th (8am-10am; Street Cleaning): No Parking"
+            }
+          ],
+          "amenities": [
+            {
+              "id": 1,
+              "name": "Free"
+            },
+            {
+              "id": 3,
+              "name": "Overnight parking"
+            }
+          ],
+          "paymentIDs": [],
+          "isOpen": true,
+          "calculatedRates": [
+            {
+              "rate_cost": 0,
+              "quoted_duration": "1:00:00",
+              "rate_type": "B"
+            }
+          ]
+        },
+        {
+          "segmentID": "7b84294b-fe00-4929-941f-2e38df2f99c4",
+          "start": 79,
+          "end": 85,
+          "side": "LEFT",
+          "spacesTotal": 1,
+          "rateCards": [
+            "Mon-Sun: Free",
+            "Fri Every 2nd & 4th (8am-10am; Street Cleaning): No Parking"
+          ],
+          "polyline": "ktjeFbefjV?H",
+          "polyline6": "aus~fAl|fohFDzA",
+          "structuredRates": [
+            {
+              "dow_start": 1,
+              "dow_end": 7,
+              "rate": 0,
+              "increment": 1440,
+              "repeats": true,
+              "rate_line": "Mon-Sun: Free"
+            },
+            {
+              "time_in": "08:00-10:00",
+              "dow_start": 5,
+              "alternates": [2, 4],
+              "dow_end": 5,
+              "rate": -1,
+              "rate_line": "Fri Every 2nd & 4th (8am-10am; Street Cleaning): No Parking"
+            }
+          ],
+          "amenities": [
+            {
+              "id": 1,
+              "name": "Free"
+            },
+            {
+              "id": 3,
+              "name": "Overnight parking"
+            }
+          ],
+          "paymentIDs": [],
+          "isOpen": true,
+          "calculatedRates": [
+            {
+              "rate_cost": 0,
+              "quoted_duration": "1:00:00",
+              "rate_type": "B"
+            }
+          ]
+        },
+        {
+          "segmentID": "9289274b-1940-405f-b548-39e1fc4ecfc7",
+          "start": 173,
+          "end": 182,
+          "side": "LEFT",
+          "spacesTotal": 1,
+          "rateCards": [
+            "Mon-Sun: Free",
+            "Fri Every 2nd & 4th (8am-10am; Street Cleaning): No Parking"
+          ],
+          "polyline": "_tjeFxkfjV?N",
+          "polyline6": "gqs~fA~~hohFF|C",
+          "structuredRates": [
+            {
+              "dow_start": 1,
+              "dow_end": 7,
+              "rate": 0,
+              "increment": 1440,
+              "repeats": true,
+              "rate_line": "Mon-Sun: Free"
+            },
+            {
+              "time_in": "08:00-10:00",
+              "dow_start": 5,
+              "alternates": [2, 4],
+              "dow_end": 5,
+              "rate": -1,
+              "rate_line": "Fri Every 2nd & 4th (8am-10am; Street Cleaning): No Parking"
+            }
+          ],
+          "amenities": [
+            {
+              "id": 1,
+              "name": "Free"
+            },
+            {
+              "id": 3,
+              "name": "Overnight parking"
+            }
+          ],
+          "paymentIDs": [],
+          "isOpen": true,
+          "calculatedRates": [
+            {
+              "rate_cost": 0,
+              "quoted_duration": "1:00:00",
+              "rate_type": "B"
+            }
+          ]
+        },
+        {
+          "segmentID": "9df36a52-7fac-4b55-a3af-e58e8be16480",
+          "start": 106,
+          "end": 111,
+          "side": "LEFT",
+          "spacesTotal": 0,
+          "rateCards": ["No Parking"],
+          "polyline": "itjeF`gfjV?B?@",
+          "polyline6": "}ss~fApogohF@h@@X",
+          "structuredRates": [
+            {
+              "rate": -1,
+              "increment": 1440,
+              "repeats": true,
+              "rate_line": "No Parking"
+            }
+          ],
+          "amenities": [],
+          "paymentIDs": [],
+          "isOpen": false,
+          "calculatedRates": []
+        },
+        {
+          "segmentID": "a2b6d43c-313f-4848-8ef6-1755311d3774",
+          "start": 160,
+          "end": 182,
+          "side": "RIGHT",
+          "spacesTotal": 4,
+          "rateCards": [
+            "Each Hour (Mon-Fri; 9am-6pm; 2 Hour Max): $2.25",
+            "Mon-Sat (6pm-9am): Free",
+            "Each Hour (Sat; 9am-12pm; 2 Hour Max): $2.75",
+            "Each Hour (Sat; 12pm-3pm; 2 Hour Max): $2.50",
+            "Each Hour (Sat; 3pm-6pm; 2 Hour Max): $1",
+            "Sun: Free",
+            "Tue Every 2nd & 4th (8am-10am; Street Cleaning): No Parking"
+          ],
+          "polyline": "otjeF|jfjV@j@",
+          "polyline6": "gvs~fAfvhohFXdM",
+          "structuredRates": [
+            {
+              "time_in": "09:00-18:00",
+              "dow_start": 1,
+              "dow_end": 5,
+              "rate": 2.25,
+              "increment": 60,
+              "max": 120,
+              "repeats": true,
+              "rate_line": "Each Hour (Mon-Fri; 9am-6pm; 2 Hour Max): $2.25"
+            },
+            {
+              "time_in": "18:00-09:00",
+              "dow_start": 1,
+              "dow_end": 6,
+              "rate": 0,
+              "rate_line": "Mon-Sat (6pm-9am): Free"
+            },
+            {
+              "time_in": "09:00-12:00",
+              "dow_start": 6,
+              "dow_end": 6,
+              "rate": 2.75,
+              "increment": 60,
+              "max": 120,
+              "repeats": true,
+              "rate_line": "Each Hour (Sat; 9am-12pm; 2 Hour Max): $2.75"
+            },
+            {
+              "time_in": "12:00-15:00",
+              "dow_start": 6,
+              "dow_end": 6,
+              "rate": 2.5,
+              "increment": 60,
+              "max": 120,
+              "repeats": true,
+              "rate_line": "Each Hour (Sat; 12pm-3pm; 2 Hour Max): $2.50"
+            },
+            {
+              "time_in": "15:00-18:00",
+              "dow_start": 6,
+              "dow_end": 6,
+              "rate": 1,
+              "increment": 60,
+              "max": 120,
+              "repeats": true,
+              "rate_line": "Each Hour (Sat; 3pm-6pm; 2 Hour Max): $1"
+            },
+            {
+              "dow_start": 7,
+              "dow_end": 7,
+              "rate": 0,
+              "increment": 1440,
+              "repeats": true,
+              "rate_line": "Sun: Free"
+            },
+            {
+              "time_in": "08:00-10:00",
+              "dow_start": 2,
+              "alternates": [2, 4],
+              "dow_end": 2,
+              "rate": -1,
+              "rate_line": "Tue Every 2nd & 4th (8am-10am; Street Cleaning): No Parking"
+            }
+          ],
+          "amenities": [
+            {
+              "id": 1,
+              "name": "Free"
+            },
+            {
+              "id": 2,
+              "name": "Metered parking"
+            },
+            {
+              "id": 3,
+              "name": "Overnight parking"
+            }
+          ],
+          "paymentIDs": [],
+          "isOpen": true,
+          "calculatedRates": [
+            {
+              "rate_cost": 0,
+              "quoted_duration": "1:00:00",
+              "rate_type": "B"
+            }
+          ]
+        },
+        {
+          "segmentID": "aa159a13-b21b-4529-8808-a705fec5f634",
+          "start": 140,
+          "end": 155,
+          "side": "LEFT",
+          "spacesTotal": 0,
+          "rateCards": ["No Parking"],
+          "polyline": "etjeFlifjV@\\",
+          "polyline6": "qrs~fArghohFNfH",
+          "structuredRates": [
+            {
+              "rate": -1,
+              "increment": 1440,
+              "repeats": true,
+              "rate_line": "No Parking"
+            }
+          ],
+          "amenities": [],
+          "paymentIDs": [],
+          "isOpen": false,
+          "calculatedRates": []
+        },
+        {
+          "segmentID": "b30e7283-7ff5-4786-b0cc-37beb4c47f7e",
+          "start": 115,
+          "end": 120,
+          "side": "RIGHT",
+          "spacesTotal": 1,
+          "rateCards": [
+            "Mon-Sun: Free",
+            "Tue Every 2nd & 4th (8am-10am; Street Cleaning): No Parking"
+          ],
+          "polyline": "utjeFvgfjV?D",
+          "polyline6": "axs~fAjvgohF@bA",
+          "structuredRates": [
+            {
+              "dow_start": 1,
+              "dow_end": 7,
+              "rate": 0,
+              "increment": 1440,
+              "repeats": true,
+              "rate_line": "Mon-Sun: Free"
+            },
+            {
+              "time_in": "08:00-10:00",
+              "dow_start": 2,
+              "alternates": [2, 4],
+              "dow_end": 2,
+              "rate": -1,
+              "rate_line": "Tue Every 2nd & 4th (8am-10am; Street Cleaning): No Parking"
+            }
+          ],
+          "amenities": [
+            {
+              "id": 1,
+              "name": "Free"
+            },
+            {
+              "id": 3,
+              "name": "Overnight parking"
+            }
+          ],
+          "paymentIDs": [],
+          "isOpen": true,
+          "calculatedRates": [
+            {
+              "rate_cost": 0,
+              "quoted_duration": "1:00:00",
+              "rate_type": "B"
+            }
+          ]
+        },
+        {
+          "segmentID": "b3d211ac-f9a2-4c7f-8dc1-358b115698ad",
+          "start": 85,
+          "end": 95,
+          "side": "LEFT",
+          "spacesTotal": 0,
+          "rateCards": ["No Parking"],
+          "polyline": "ktjeFpefjV?P",
+          "polyline6": "yts~fAt`gohFHtD",
+          "structuredRates": [
+            {
+              "rate": -1,
+              "increment": 1440,
+              "repeats": true,
+              "rate_line": "No Parking"
+            }
+          ],
+          "amenities": [],
+          "paymentIDs": [],
+          "isOpen": false,
+          "calculatedRates": []
+        },
+        {
+          "segmentID": "c2e91863-d726-4cc1-8435-53726ed8eece",
+          "start": 67,
+          "end": 70,
+          "side": "RIGHT",
+          "spacesTotal": 0,
+          "rateCards": ["No Parking"],
+          "polyline": "{tjeFhdfjV?B",
+          "polyline6": "_zs~fAjtfohF?T",
+          "structuredRates": [
+            {
+              "rate": -1,
+              "increment": 1440,
+              "repeats": true,
+              "rate_line": "No Parking"
+            }
+          ],
+          "amenities": [],
+          "paymentIDs": [],
+          "isOpen": false,
+          "calculatedRates": []
+        },
+        {
+          "segmentID": "d3905882-5543-450d-9547-763aee93d17f",
+          "start": 133,
+          "end": 135,
+          "side": "LEFT",
+          "spacesTotal": 0,
+          "rateCards": ["No Parking"],
+          "polyline": "etjeF|hfjV?@",
+          "polyline6": "{rs~fAdbhohF@^",
+          "structuredRates": [
+            {
+              "rate": -1,
+              "increment": 1440,
+              "repeats": true,
+              "rate_line": "No Parking"
+            }
+          ],
+          "amenities": [],
+          "paymentIDs": [],
+          "isOpen": false,
+          "calculatedRates": []
+        },
+        {
+          "segmentID": "d3c5ea3e-1d40-4582-a31e-6152908ebbf1",
+          "start": 120,
+          "end": 125,
+          "side": "LEFT",
+          "spacesTotal": 1,
+          "rateCards": [
+            "Mon-Sun: Free",
+            "Fri Every 2nd & 4th (8am-10am; Street Cleaning): No Parking"
+          ],
+          "polyline": "gtjeF`hfjV?D",
+          "polyline6": "kss~fAnygohFBbA",
+          "structuredRates": [
+            {
+              "dow_start": 1,
+              "dow_end": 7,
+              "rate": 0,
+              "increment": 1440,
+              "repeats": true,
+              "rate_line": "Mon-Sun: Free"
+            },
+            {
+              "time_in": "08:00-10:00",
+              "dow_start": 5,
+              "alternates": [2, 4],
+              "dow_end": 5,
+              "rate": -1,
+              "rate_line": "Fri Every 2nd & 4th (8am-10am; Street Cleaning): No Parking"
+            }
+          ],
+          "amenities": [
+            {
+              "id": 1,
+              "name": "Free"
+            },
+            {
+              "id": 3,
+              "name": "Overnight parking"
+            }
+          ],
+          "paymentIDs": [],
+          "isOpen": true,
+          "calculatedRates": [
+            {
+              "rate_cost": 0,
+              "quoted_duration": "1:00:00",
+              "rate_type": "B"
+            }
+          ]
+        },
+        {
+          "segmentID": "da0cdd18-5b86-48aa-896a-0a5249e0036a",
+          "start": 125,
+          "end": 128,
+          "side": "LEFT",
+          "spacesTotal": 0,
+          "rateCards": ["No Parking"],
+          "polyline": "gtjeFjhfjV@B",
+          "polyline6": "ess~fA`}gohF@T",
+          "structuredRates": [
+            {
+              "rate": -1,
+              "increment": 1440,
+              "repeats": true,
+              "rate_line": "No Parking"
+            }
+          ],
+          "amenities": [],
+          "paymentIDs": [],
+          "isOpen": false,
+          "calculatedRates": []
+        },
+        {
+          "segmentID": "db085b0b-f979-4a88-8c27-890db3d88668",
+          "start": 6,
+          "end": 23,
+          "side": "RIGHT",
+          "spacesTotal": 0,
+          "rateCards": ["No Parking"],
+          "polyline": "cujeF~_fjV?H@V",
+          "polyline6": "q|s~fAfieohFFbBLlF",
+          "structuredRates": [
+            {
+              "rate": -1,
+              "increment": 1440,
+              "repeats": true,
+              "rate_line": "No Parking"
+            }
+          ],
+          "amenities": [],
+          "paymentIDs": [],
+          "isOpen": false,
+          "calculatedRates": []
+        },
+        {
+          "segmentID": "df967210-cdae-4d15-98a3-37325dcd7fc4",
+          "start": 23,
+          "end": 57,
+          "side": "RIGHT",
+          "spacesTotal": 6,
+          "rateCards": [
+            "Mon-Sun: Free",
+            "Tue Every 2nd & 4th (8am-10am; Street Cleaning): No Parking"
+          ],
+          "polyline": "aujeFfafjVBfA",
+          "polyline6": "y{s~fAdueohFh@tU",
+          "structuredRates": [
+            {
+              "dow_start": 1,
+              "dow_end": 7,
+              "rate": 0,
+              "increment": 1440,
+              "repeats": true,
+              "rate_line": "Mon-Sun: Free"
+            },
+            {
+              "time_in": "08:00-10:00",
+              "dow_start": 2,
+              "alternates": [2, 4],
+              "dow_end": 2,
+              "rate": -1,
+              "rate_line": "Tue Every 2nd & 4th (8am-10am; Street Cleaning): No Parking"
+            }
+          ],
+          "amenities": [
+            {
+              "id": 1,
+              "name": "Free"
+            },
+            {
+              "id": 3,
+              "name": "Overnight parking"
+            }
+          ],
+          "paymentIDs": [],
+          "isOpen": true,
+          "calculatedRates": [
+            {
+              "rate_cost": 0,
+              "quoted_duration": "1:00:00",
+              "rate_type": "B"
+            }
+          ]
+        },
+        {
+          "segmentID": "e47649ac-f04a-4ad3-9a0c-ba08e5f92d16",
+          "start": 116,
+          "end": 120,
+          "side": "LEFT",
+          "spacesTotal": 0,
+          "rateCards": ["No Parking"],
+          "polyline": "gtjeFvgfjV?D",
+          "polyline6": "qss~fAtvgohF@j@",
+          "structuredRates": [
+            {
+              "rate": -1,
+              "increment": 1440,
+              "repeats": true,
+              "rate_line": "No Parking"
+            }
+          ],
+          "amenities": [],
+          "paymentIDs": [],
+          "isOpen": false,
+          "calculatedRates": []
+        },
+        {
+          "segmentID": "ee9af838-db20-4392-b33a-ed8766b3ef8f",
+          "start": 152,
+          "end": 155,
+          "side": "RIGHT",
+          "spacesTotal": 0,
+          "rateCards": ["No Parking"],
+          "polyline": "qtjeFjjfjV?@",
+          "polyline6": "svs~fApphohF@T",
+          "structuredRates": [
+            {
+              "rate": -1,
+              "increment": 1440,
+              "repeats": true,
+              "rate_line": "No Parking"
+            }
+          ],
+          "amenities": [],
+          "paymentIDs": [],
+          "isOpen": false,
+          "calculatedRates": []
+        },
+        {
+          "segmentID": "f3bcd166-9e09-4d98-94f1-f8e0540fc5c6",
+          "start": 155,
+          "end": 162,
+          "side": "LEFT",
+          "spacesTotal": 1,
+          "rateCards": [
+            "Mon-Sun: Free",
+            "Fri Every 2nd & 4th (8am-10am; Street Cleaning): No Parking"
+          ],
+          "polyline": "ctjeFnjfjV@J",
+          "polyline6": "_rs~fAfrhohFFpB",
+          "structuredRates": [
+            {
+              "dow_start": 1,
+              "dow_end": 7,
+              "rate": 0,
+              "increment": 1440,
+              "repeats": true,
+              "rate_line": "Mon-Sun: Free"
+            },
+            {
+              "time_in": "08:00-10:00",
+              "dow_start": 5,
+              "alternates": [2, 4],
+              "dow_end": 5,
+              "rate": -1,
+              "rate_line": "Fri Every 2nd & 4th (8am-10am; Street Cleaning): No Parking"
+            }
+          ],
+          "amenities": [
+            {
+              "id": 1,
+              "name": "Free"
+            },
+            {
+              "id": 3,
+              "name": "Overnight parking"
+            }
+          ],
+          "paymentIDs": [],
+          "isOpen": true,
+          "calculatedRates": [
+            {
+              "rate_cost": 0,
+              "quoted_duration": "1:00:00",
+              "rate_type": "B"
+            }
+          ]
+        },
+        {
+          "segmentID": "fe38e32a-f781-47b1-952f-dbdb3ecfe1e4",
+          "start": 61,
+          "end": 67,
+          "side": "RIGHT",
+          "spacesTotal": 1,
+          "rateCards": [
+            "Mon-Sun: Free",
+            "Tue Every 2nd & 4th (8am-10am; Street Cleaning): No Parking"
+          ],
+          "polyline": "}tjeF|cfjV?F",
+          "polyline6": "gzs~fAbpfohFBxA",
+          "structuredRates": [
+            {
+              "dow_start": 1,
+              "dow_end": 7,
+              "rate": 0,
+              "increment": 1440,
+              "repeats": true,
+              "rate_line": "Mon-Sun: Free"
+            },
+            {
+              "time_in": "08:00-10:00",
+              "dow_start": 2,
+              "alternates": [2, 4],
+              "dow_end": 2,
+              "rate": -1,
+              "rate_line": "Tue Every 2nd & 4th (8am-10am; Street Cleaning): No Parking"
+            }
+          ],
+          "amenities": [
+            {
+              "id": 1,
+              "name": "Free"
+            },
+            {
+              "id": 3,
+              "name": "Overnight parking"
+            }
+          ],
+          "paymentIDs": [],
+          "isOpen": true,
+          "calculatedRates": [
+            {
+              "rate_cost": 0,
+              "quoted_duration": "1:00:00",
+              "rate_type": "B"
+            }
+          ]
+        }
+      ],
+      "pmtTypes": [
+        "Amex",
+        "Coins",
+        "Debit card",
+        "Discover",
+        "MC/Visa",
+        "Pay by Phone"
+      ],
+      "photoThumbs": [
+        "https://d13esfgglb25od.cloudfront.net/core/img/default.png"
+      ],
+      "i_flag": null,
+      "blockID": "51008652",
+      "bucket": 3,
+      "currency": "$",
+      "polyline": "}tjeFp_fjVXtL",
+      "address": "From Dolores Street To Church Street",
+      "operator": "San Francisco Municipal Transportation",
+      "geojson": {
+        "type": "LineString",
+        "coordinates": [
+          [-122.4244003834825, 37.74303498527242],
+          [-122.42550019962808, 37.74296971176258],
+          [-122.4266, 37.742905]
+        ]
+      },
+      "note": "Max stay limit may vary",
+      "amenities": [
+        {
+          "id": 1,
+          "name": "Free"
+        },
+        {
+          "id": 3,
+          "name": "Overnight parking"
+        },
+        {
+          "id": 2,
+          "name": "Metered parking"
+        }
+      ],
+      "distance": 98,
+      "offset": -28800
+    },
+    {
+      "name": "Dolores Street",
+      "probability": 25,
+      "reservations": [],
+      "segments": [
+        {
+          "segmentID": "fda9185c-cae2-4e35-b667-fedba1f70f75",
+          "start": 3,
+          "end": 51,
+          "side": "RIGHT",
+          "spacesTotal": 0,
+          "rateCards": ["No Parking"],
+          "polyline": "utjeFx_fjVpAG",
+          "polyline6": "}ws~fA|feohFvXiA",
+          "structuredRates": [
+            {
+              "rate": -1,
+              "increment": 1440,
+              "repeats": true,
+              "rate_line": "No Parking"
+            }
+          ],
+          "amenities": [],
+          "paymentIDs": [],
+          "isOpen": false,
+          "calculatedRates": []
+        },
+        {
+          "segmentID": "c7751d71-6b06-4f48-89a3-4391c49f53ae",
+          "start": 12,
+          "end": 81,
+          "side": "LEFT",
+          "spacesTotal": 0,
+          "rateCards": ["No Parking"],
+          "polyline": "gtjeFd_fjVvBI",
+          "polyline6": "gss~fAx`eohFpd@kB",
+          "structuredRates": [
+            {
+              "rate": -1,
+              "increment": 1440,
+              "repeats": true,
+              "rate_line": "No Parking"
+            }
+          ],
+          "amenities": [],
+          "paymentIDs": [],
+          "isOpen": false,
+          "calculatedRates": []
+        },
+        {
+          "segmentID": "c637d784-e8b4-4004-9110-7e5263431b5e",
+          "start": 66,
+          "end": 81,
+          "side": "RIGHT",
+          "spacesTotal": 0,
+          "rateCards": ["No Parking"],
+          "polyline": "eqjeFn_fjVVA",
+          "polyline6": "utr~fAvceohFhFS",
+          "structuredRates": [
+            {
+              "rate": -1,
+              "increment": 1440,
+              "repeats": true,
+              "rate_line": "No Parking"
+            }
+          ],
+          "amenities": [],
+          "paymentIDs": [],
+          "isOpen": false,
+          "calculatedRates": []
+        },
+        {
+          "segmentID": "1c4d5f24-09ca-4c6c-9317-1713c5e8be64",
+          "start": 61,
+          "end": 66,
+          "side": "RIGHT",
+          "spacesTotal": 1,
+          "rateCards": [
+            "Mon-Tue | Thu-Sun: Free",
+            "Wed (7am-9am; Street Cleaning): No Parking",
+            "Wed (9am-7am): Free"
+          ],
+          "polyline": "mqjeFn_fjVD?",
+          "polyline6": "mwr~fA~ceohFr@C",
+          "structuredRates": [
+            {
+              "dow_start": 1,
+              "dow_end": 2,
+              "rate": 0,
+              "increment": 1440,
+              "repeats": true,
+              "rate_line": "Mon-Tue | Thu-Sun: Free"
+            },
+            {
+              "time_in": "07:00-09:00",
+              "dow_start": 3,
+              "dow_end": 3,
+              "rate": -1,
+              "rate_line": "Wed (7am-9am; Street Cleaning): No Parking"
+            },
+            {
+              "time_in": "09:00-07:00",
+              "dow_start": 3,
+              "dow_end": 3,
+              "rate": 0,
+              "rate_line": "Wed (9am-7am): Free"
+            },
+            {
+              "dow_start": 4,
+              "dow_end": 7,
+              "rate": 0,
+              "increment": 1440,
+              "repeats": true,
+              "rate_line": " Thu-Sun: Free"
+            }
+          ],
+          "amenities": [
+            {
+              "id": 1,
+              "name": "Free"
+            },
+            {
+              "id": 3,
+              "name": "Overnight parking"
+            }
+          ],
+          "paymentIDs": [],
+          "isOpen": true,
+          "calculatedRates": [
+            {
+              "rate_cost": 0,
+              "quoted_duration": "1:00:00",
+              "rate_type": "B"
+            }
+          ]
+        },
+        {
+          "segmentID": "cec8c522-fcc3-4357-bc41-2d402a8dee71",
+          "start": 56,
+          "end": 61,
+          "side": "RIGHT",
+          "spacesTotal": 0,
+          "rateCards": ["No Parking"],
+          "polyline": "wqjeFn_fjVD?",
+          "polyline6": "gzr~fAfdeohFt@C",
+          "structuredRates": [
+            {
+              "rate": -1,
+              "increment": 1440,
+              "repeats": true,
+              "rate_line": "No Parking"
+            }
+          ],
+          "amenities": [],
+          "paymentIDs": [],
+          "isOpen": false,
+          "calculatedRates": []
+        },
+        {
+          "segmentID": "18d2bf68-643d-405e-870d-4e1108a34092",
+          "start": 51,
+          "end": 56,
+          "side": "RIGHT",
+          "spacesTotal": 1,
+          "rateCards": [
+            "Mon-Tue | Thu-Sun: Free",
+            "Wed (7am-9am; Street Cleaning): No Parking",
+            "Wed (9am-7am): Free"
+          ],
+          "polyline": "_rjeFp_fjVD?",
+          "polyline6": "a}r~fAndeohFt@C",
+          "structuredRates": [
+            {
+              "dow_start": 1,
+              "dow_end": 2,
+              "rate": 0,
+              "increment": 1440,
+              "repeats": true,
+              "rate_line": "Mon-Tue | Thu-Sun: Free"
+            },
+            {
+              "time_in": "07:00-09:00",
+              "dow_start": 3,
+              "dow_end": 3,
+              "rate": -1,
+              "rate_line": "Wed (7am-9am; Street Cleaning): No Parking"
+            },
+            {
+              "time_in": "09:00-07:00",
+              "dow_start": 3,
+              "dow_end": 3,
+              "rate": 0,
+              "rate_line": "Wed (9am-7am): Free"
+            },
+            {
+              "dow_start": 4,
+              "dow_end": 7,
+              "rate": 0,
+              "increment": 1440,
+              "repeats": true,
+              "rate_line": " Thu-Sun: Free"
+            }
+          ],
+          "amenities": [
+            {
+              "id": 1,
+              "name": "Free"
+            },
+            {
+              "id": 3,
+              "name": "Overnight parking"
+            }
+          ],
+          "paymentIDs": [],
+          "isOpen": true,
+          "calculatedRates": [
+            {
+              "rate_cost": 0,
+              "quoted_duration": "1:00:00",
+              "rate_type": "B"
+            }
+          ]
+        }
+      ],
+      "pmtTypes": [],
+      "photoThumbs": [
+        "https://d13esfgglb25od.cloudfront.net/core/img/default.png"
+      ],
+      "i_flag": null,
+      "blockID": "51007482",
+      "bucket": 1,
+      "currency": "$",
+      "polyline": "{tjeFp_fjVzCM??",
+      "address": "From Day Street To 30th Street",
+      "operator": "San Francisco Municipal Transportation",
+      "geojson": {
+        "type": "LineString",
+        "coordinates": [
+          [-122.424404979986, 37.74302955307817],
+          [-122.42436955307815, 37.74263479610492],
+          [-122.424335, 37.74224]
+        ]
+      },
+      "note": "",
+      "amenities": [
+        {
+          "id": 1,
+          "name": "Free"
+        },
+        {
+          "id": 3,
+          "name": "Overnight parking"
+        }
+      ],
+      "distance": 45,
+      "offset": -28800
+    },
+    {
+      "name": "Dolores Street",
+      "probability": 33,
+      "reservations": [],
+      "segments": [
+        {
+          "segmentID": "83aa5ffb-53e2-4e44-afea-898e48d5a4b1",
+          "start": 80,
+          "end": 84,
+          "side": "RIGHT",
+          "spacesTotal": 0,
+          "rateCards": ["No Parking"],
+          "polyline": "qyjeFt~ejVC?",
+          "polyline6": "qhu~fA|{dohFc@B",
+          "structuredRates": [
+            {
+              "rate": -1,
+              "increment": 1440,
+              "repeats": true,
+              "rate_line": "No Parking"
+            }
+          ],
+          "amenities": [],
+          "paymentIDs": [],
+          "isOpen": false,
+          "calculatedRates": []
+        },
+        {
+          "segmentID": "4e3be2b1-23e8-4b8a-a699-e1ce1f509395",
+          "start": 63,
+          "end": 80,
+          "side": "RIGHT",
+          "spacesTotal": 3,
+          "rateCards": [
+            "Mon (7am-9am; Street Cleaning): No Parking",
+            "Mon (9am-7am): Free",
+            "Tue-Sun: Free"
+          ],
+          "polyline": "sxjeFr~ejVY@",
+          "polyline6": "__u~fA~zdohFmGZ",
+          "structuredRates": [
+            {
+              "time_in": "07:00-09:00",
+              "dow_start": 1,
+              "dow_end": 1,
+              "rate": -1,
+              "rate_line": "Mon (7am-9am; Street Cleaning): No Parking"
+            },
+            {
+              "time_in": "09:00-07:00",
+              "dow_start": 1,
+              "dow_end": 1,
+              "rate": 0,
+              "rate_line": "Mon (9am-7am): Free"
+            },
+            {
+              "dow_start": 2,
+              "dow_end": 7,
+              "rate": 0,
+              "increment": 1440,
+              "repeats": true,
+              "rate_line": "Tue-Sun: Free"
+            }
+          ],
+          "amenities": [
+            {
+              "id": 1,
+              "name": "Free"
+            },
+            {
+              "id": 3,
+              "name": "Overnight parking"
+            }
+          ],
+          "paymentIDs": [],
+          "isOpen": true,
+          "calculatedRates": [
+            {
+              "rate_cost": 0,
+              "quoted_duration": "1:00:00",
+              "rate_type": "B"
+            }
+          ]
+        },
+        {
+          "segmentID": "dd7f0a69-26b4-4d10-8e82-934853a7c745",
+          "start": 60,
+          "end": 63,
+          "side": "RIGHT",
+          "spacesTotal": 0,
+          "rateCards": ["No Parking"],
+          "polyline": "mxjeFp~ejVA?",
+          "polyline6": "k}t~fAzzdohFQ@",
+          "structuredRates": [
+            {
+              "rate": -1,
+              "increment": 1440,
+              "repeats": true,
+              "rate_line": "No Parking"
+            }
+          ],
+          "amenities": [],
+          "paymentIDs": [],
+          "isOpen": false,
+          "calculatedRates": []
+        },
+        {
+          "segmentID": "f72f8c34-a5d8-47b4-8aec-7984fe4cb81a",
+          "start": 50,
+          "end": 60,
+          "side": "RIGHT",
+          "spacesTotal": 1,
+          "rateCards": [
+            "Mon (7am-9am; Street Cleaning): No Parking",
+            "Mon (9am-7am): Free",
+            "Tue-Sun: Free"
+          ],
+          "polyline": "{wjeFn~ejVM@",
+          "polyline6": "wwt~fAhzdohFoCL",
+          "structuredRates": [
+            {
+              "time_in": "07:00-09:00",
+              "dow_start": 1,
+              "dow_end": 1,
+              "rate": -1,
+              "rate_line": "Mon (7am-9am; Street Cleaning): No Parking"
+            },
+            {
+              "time_in": "09:00-07:00",
+              "dow_start": 1,
+              "dow_end": 1,
+              "rate": 0,
+              "rate_line": "Mon (9am-7am): Free"
+            },
+            {
+              "dow_start": 2,
+              "dow_end": 7,
+              "rate": 0,
+              "increment": 1440,
+              "repeats": true,
+              "rate_line": "Tue-Sun: Free"
+            }
+          ],
+          "amenities": [
+            {
+              "id": 1,
+              "name": "Free"
+            },
+            {
+              "id": 3,
+              "name": "Overnight parking"
+            }
+          ],
+          "paymentIDs": [],
+          "isOpen": true,
+          "calculatedRates": [
+            {
+              "rate_cost": 0,
+              "quoted_duration": "1:00:00",
+              "rate_type": "B"
+            }
+          ]
+        },
+        {
+          "segmentID": "1c84fbe3-5064-43bb-8920-b47c9eaeedc1",
+          "start": 46,
+          "end": 50,
+          "side": "RIGHT",
+          "spacesTotal": 0,
+          "rateCards": ["No Parking"],
+          "polyline": "swjeFn~ejVC?",
+          "polyline6": "out~fA`zdohFc@B",
+          "structuredRates": [
+            {
+              "rate": -1,
+              "increment": 1440,
+              "repeats": true,
+              "rate_line": "No Parking"
+            }
+          ],
+          "amenities": [],
+          "paymentIDs": [],
+          "isOpen": false,
+          "calculatedRates": []
+        },
+        {
+          "segmentID": "96a0dee4-0218-47c3-aed7-6924def85069",
+          "start": 40,
+          "end": 46,
+          "side": "RIGHT",
+          "spacesTotal": 1,
+          "rateCards": [
+            "Mon (7am-9am; Street Cleaning): No Parking",
+            "Mon (9am-7am): Free",
+            "Tue-Sun: Free"
+          ],
+          "polyline": "iwjeFn~ejVG?",
+          "polyline6": "crt~fAvydohFgAF",
+          "structuredRates": [
+            {
+              "time_in": "07:00-09:00",
+              "dow_start": 1,
+              "dow_end": 1,
+              "rate": -1,
+              "rate_line": "Mon (7am-9am; Street Cleaning): No Parking"
+            },
+            {
+              "time_in": "09:00-07:00",
+              "dow_start": 1,
+              "dow_end": 1,
+              "rate": 0,
+              "rate_line": "Mon (9am-7am): Free"
+            },
+            {
+              "dow_start": 2,
+              "dow_end": 7,
+              "rate": 0,
+              "increment": 1440,
+              "repeats": true,
+              "rate_line": "Tue-Sun: Free"
+            }
+          ],
+          "amenities": [
+            {
+              "id": 1,
+              "name": "Free"
+            },
+            {
+              "id": 3,
+              "name": "Overnight parking"
+            }
+          ],
+          "paymentIDs": [],
+          "isOpen": true,
+          "calculatedRates": [
+            {
+              "rate_cost": 0,
+              "quoted_duration": "1:00:00",
+              "rate_type": "B"
+            }
+          ]
+        },
+        {
+          "segmentID": "944bf693-ad5a-45ef-a77b-a88dd2223c32",
+          "start": 36,
+          "end": 40,
+          "side": "RIGHT",
+          "spacesTotal": 0,
+          "rateCards": ["No Parking"],
+          "polyline": "awjeFl~ejVC?",
+          "polyline6": "}ot~fApydohFc@@",
+          "structuredRates": [
+            {
+              "rate": -1,
+              "increment": 1440,
+              "repeats": true,
+              "rate_line": "No Parking"
+            }
+          ],
+          "amenities": [],
+          "paymentIDs": [],
+          "isOpen": false,
+          "calculatedRates": []
+        },
+        {
+          "segmentID": "7a654fd2-f3c5-4319-925c-a8e247b19580",
+          "start": 31,
+          "end": 36,
+          "side": "RIGHT",
+          "spacesTotal": 1,
+          "rateCards": [
+            "Mon (7am-9am; Street Cleaning): No Parking",
+            "Mon (9am-7am): Free",
+            "Tue-Sun: Free"
+          ],
+          "polyline": "yvjeFl~ejVE?",
+          "polyline6": "cmt~fAfydohFu@D",
+          "structuredRates": [
+            {
+              "time_in": "07:00-09:00",
+              "dow_start": 1,
+              "dow_end": 1,
+              "rate": -1,
+              "rate_line": "Mon (7am-9am; Street Cleaning): No Parking"
+            },
+            {
+              "time_in": "09:00-07:00",
+              "dow_start": 1,
+              "dow_end": 1,
+              "rate": 0,
+              "rate_line": "Mon (9am-7am): Free"
+            },
+            {
+              "dow_start": 2,
+              "dow_end": 7,
+              "rate": 0,
+              "increment": 1440,
+              "repeats": true,
+              "rate_line": "Tue-Sun: Free"
+            }
+          ],
+          "amenities": [
+            {
+              "id": 1,
+              "name": "Free"
+            },
+            {
+              "id": 3,
+              "name": "Overnight parking"
+            }
+          ],
+          "paymentIDs": [],
+          "isOpen": true,
+          "calculatedRates": [
+            {
+              "rate_cost": 0,
+              "quoted_duration": "1:00:00",
+              "rate_type": "B"
+            }
+          ]
+        },
+        {
+          "segmentID": "879680e7-ffd2-40ee-9a12-09b520fef4ad",
+          "start": 12,
+          "end": 23,
+          "side": "RIGHT",
+          "spacesTotal": 2,
+          "rateCards": [
+            "Mon (7am-9am; Street Cleaning): No Parking",
+            "Mon (9am-7am): Free",
+            "Tue-Sun: Free"
+          ],
+          "polyline": "wujeFh~ejVO@",
+          "polyline6": "obt~fAdxdohF_DN",
+          "structuredRates": [
+            {
+              "time_in": "07:00-09:00",
+              "dow_start": 1,
+              "dow_end": 1,
+              "rate": -1,
+              "rate_line": "Mon (7am-9am; Street Cleaning): No Parking"
+            },
+            {
+              "time_in": "09:00-07:00",
+              "dow_start": 1,
+              "dow_end": 1,
+              "rate": 0,
+              "rate_line": "Mon (9am-7am): Free"
+            },
+            {
+              "dow_start": 2,
+              "dow_end": 7,
+              "rate": 0,
+              "increment": 1440,
+              "repeats": true,
+              "rate_line": "Tue-Sun: Free"
+            }
+          ],
+          "amenities": [
+            {
+              "id": 1,
+              "name": "Free"
+            },
+            {
+              "id": 3,
+              "name": "Overnight parking"
+            }
+          ],
+          "paymentIDs": [],
+          "isOpen": true,
+          "calculatedRates": [
+            {
+              "rate_cost": 0,
+              "quoted_duration": "1:00:00",
+              "rate_type": "B"
+            }
+          ]
+        },
+        {
+          "segmentID": "38c70478-a6cc-46eb-9394-aa6729d64f2b",
+          "start": 6,
+          "end": 12,
+          "side": "RIGHT",
+          "spacesTotal": 0,
+          "rateCards": ["No Parking"],
+          "polyline": "mujeFh~ejVE?",
+          "polyline6": "c_t~fAzwdohFgAF",
+          "structuredRates": [
+            {
+              "rate": -1,
+              "increment": 1440,
+              "repeats": true,
+              "rate_line": "No Parking"
+            }
+          ],
+          "amenities": [],
+          "paymentIDs": [],
+          "isOpen": false,
+          "calculatedRates": []
+        },
+        {
+          "segmentID": "2b649086-6cac-4914-8a64-982df1934c06",
+          "start": 15,
+          "end": 78,
+          "side": "LEFT",
+          "spacesTotal": 0,
+          "rateCards": ["No Parking"],
+          "polyline": "{ujeFz~ejVmBJ",
+          "polyline6": "yct~fA~}dohFca@jB",
+          "structuredRates": [
+            {
+              "rate": -1,
+              "increment": 1440,
+              "repeats": true,
+              "rate_line": "No Parking"
+            }
+          ],
+          "amenities": [],
+          "paymentIDs": [],
+          "isOpen": false,
+          "calculatedRates": []
+        },
+        {
+          "segmentID": "ba3b0949-9eb5-45da-aa49-435ecf8ce0f3",
+          "start": 23,
+          "end": 31,
+          "side": "RIGHT",
+          "spacesTotal": 0,
+          "rateCards": ["No Parking"],
+          "polyline": "kvjeFj~ejVI@",
+          "polyline6": "sht~fAxxdohFkBH",
+          "structuredRates": [
+            {
+              "rate": -1,
+              "increment": 1440,
+              "repeats": true,
+              "rate_line": "No Parking"
+            }
+          ],
+          "amenities": [],
+          "paymentIDs": [],
+          "isOpen": false,
+          "calculatedRates": []
+        }
+      ],
+      "pmtTypes": [],
+      "photoThumbs": [],
+      "i_flag": null,
+      "blockID": "51008806",
+      "bucket": 1,
+      "currency": "$",
+      "polyline": "_ujeFp~ejVaDN",
+      "address": "From Day Street To 29th Street",
+      "operator": "San Francisco Municipal Transportation",
+      "geojson": {
+        "type": "LineString",
+        "coordinates": [
+          [-122.4242450242096, 37.74304049143609],
+          [-122.4242850242096, 37.74344549143609],
+          [-122.4243250242096, 37.74385049143609]
+        ]
+      },
+      "note": "",
+      "amenities": [
+        {
+          "id": 1,
+          "name": "Free"
+        },
+        {
+          "id": 3,
+          "name": "Overnight parking"
+        }
+      ],
+      "distance": 45,
+      "offset": -28800
+    }
+  ],
+  "MeterCount": 3
+}
