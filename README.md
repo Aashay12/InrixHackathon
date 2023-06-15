@@ -1,6 +1,6 @@
 # InrixHackathon
 
-# Link to Devpost ![https://devpost.com/software/parking-npxt9j]
+## Link to Devpost https://devpost.com/software/parking-npxt9j
 
 # Inspiration
 In 2020, 168,323 vehicles were stolen in California, at an estimated total value of approximately $1.6 billion.1 This is a 19.6 percent increase from the 2019 total for vehicle thefts statewide. The average rate of theft in 2020 was one vehicle every 3 minutes. Apart from vehicle thefts, we also considered other crimes while building our model that would guide the user by a simple ranking system to a safer and more cost-efficient on-street parking spot.
